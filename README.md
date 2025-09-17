@@ -29,16 +29,13 @@ Open `notebooks/analysis.ipynb`. It includes:
 - A regression model to predict `assessment_score`
 - KMeans clustering to create learning personas
 
-## Deploy to Vercel
-1. Push to GitHub
-2. Import in Vercel
-3. Build: `npm run build`
-4. Output: `.next`
+
+## Deployment
+- Live Demo: https://assignment-igebra-2-0.vercel.app/
+- GitHub Repository: https://github.com/Madhav-150/Assignment-igebra--2.0
 
 ## Submission
 - Vercel URL (public)
 - GitHub repository URL
-- Submit via: https://forms.office.com/r/3pE7aW2kMr
 
-## License
-MIT
+
