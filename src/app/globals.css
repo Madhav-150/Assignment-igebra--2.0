@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0b1220;
+  --foreground: #e5e7eb;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  color: var(--foreground);
+  background: radial-gradient(1200px 800px at 10% 10%, #0f172a 0%, #0b1220 60%), #0b1220;
+}
+
+.card {
+  @apply bg-slate-900/60 border border-slate-800 rounded-xl p-5 shadow-sm;
+}
+
+.title {
+  @apply text-lg font-semibold text-slate-100;
+}
+
+.subtitle {
+  @apply text-sm text-slate-400;
+}
